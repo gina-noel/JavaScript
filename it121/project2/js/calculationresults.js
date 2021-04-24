@@ -14,7 +14,7 @@ displayUserInputs(name, firstNumber, secondNumber);
 
 //function
 function displayUserInputs(name, firstNumber, secondNumber) {
-    if (name != "" && name === null && !isNaN(firstNumber) && !isNaN(secondNumber)) {
+    if (name !== "" && name !== "null" && !isNaN(firstNumber) && !isNaN(secondNumber)) {
         numberTotals = firstNumber + secondNumber;
         document.getElementById("result").textContent =
             "Hi " + name + "! " + "The sum of " +
