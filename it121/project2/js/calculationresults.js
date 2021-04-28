@@ -7,7 +7,7 @@ var numberTotals;
 // get user input from prompts
 name = prompt("Let's play the sum game.\nPlease enter your name");
 firstNumber = parseInt(prompt("Enter first number"));
-secondNumber = parseInt(prompt("Enter first number"));
+secondNumber = parseInt(prompt("Enter second number"));
 
 // call function
 displayUserInputs(name, firstNumber, secondNumber);
@@ -22,7 +22,7 @@ function displayUserInputs(name, firstNumber, secondNumber) {
             secondNumber + " is : " +
             numberTotals;
     } else {
-        document.getElementById("result").textContent = "Oops, your input was not received properly. Please start over";
+        document.getElementById("result").textContent = "Oops, your input was not received properly. Please start over!";
     }
 }
 
