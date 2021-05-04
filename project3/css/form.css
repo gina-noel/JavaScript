@@ -1,0 +1,19 @@
+img {
+    float: left;
+    margin: 1em;
+}
+div {
+    color: orange;
+    margin: 2em;
+}
+div:hover {
+    color: darkred;
+    background-color: peru;
+    text-decoration: none;
+}
+h2 {
+    color: darkred;
+    margin: 1em;
+}
+
+
